@@ -167,3 +167,15 @@ hr {
   color: #b9b9b9;
   margin-top: 10px;
 }
+.scocial-icoan{
+  width: 100%;
+  display: none;
+}
+.icoan {
+  font-size: 32px;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 16px;
+  color: gray;
+  cursor: pointer;
+}
