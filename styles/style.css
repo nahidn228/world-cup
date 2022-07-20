@@ -66,6 +66,7 @@ h1 {
   width: 100px;
   height: 32px;
   margin: 20px;
+  cursor: pointer;
 }
 .bnr-title {
   font-style: normal;
@@ -89,4 +90,40 @@ h1 {
 .hour i,
 .comment i {
   margin-right: 5px;
+}
+/*..........................
+           Footer 
+..........................*/
+
+.footer {
+  height: 350px;
+  left: 0px;
+  margin-top: 100px;
+  text-align: center;
+  background: #161616;
+}
+.goal {
+  padding-top: 50px;
+  font-weight: 600;
+  font-size: 40px;
+  color: #ffffff;
+}
+hr {
+  margin: 0px 50px;
+  height: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footer-menu {
+  display: flex;
+  justify-content: center;
+}
+.footer-menu a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  margin-right: 30px;
+  color: #b9b9b9;
+  margin-top: 10px;
 }
