@@ -11,6 +11,7 @@ body {
   top: 50px;
   background: #161616;
   border-radius: 30px;
+  margin-bottom: 100px;
 }
 h1 {
   font-weight: 700;
@@ -50,16 +51,27 @@ h1 {
   width: 581px;
   height: 613px;
 }
+
+/* .........................................
+            Fixed Box and all item
+   ......................................... */
+
+.main-box{
+  position: relative;
+  
+ 
+}
+
 /* ...............................
             Fixed Box
    ............................. */
 
 .fixed-box {
-  position: absolute;
+  position: sticky;
   width: 312px;
   height: 312px;
   left: 10px;
-  top: 750px;
+  top: 100px;
   background: #161616;
   border-radius: 10px;
 }
@@ -93,12 +105,13 @@ h1 {
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin-top: 100px;
+  margin-top: -300px;
   margin-left: 350px;
+  height: 1250px;
 }
 .blog {
   width: 312px;
-  height: 362px;
+  height: 300px;
   left: 476px;
   top: 826px;
 }
